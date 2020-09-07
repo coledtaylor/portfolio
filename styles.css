@@ -8,7 +8,7 @@ body {
 }
 
 .heading-container {
-    background-image: url('Images/light-laptop.jpg');
+    background-image: url('../Images/light-laptop.jpg');
     background-size: cover;
     background-position: center;
     opacity: 90%;
