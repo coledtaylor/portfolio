@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/* general styles */
+
+body {
+    background-color: #e0e2db;
+}
+
+.heading-container {
+    background-image: url("images/light-laptop.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+    box-shadow: inset 40px 4px 143px 150px rgba(0, 0, 0, 0.91);
+    color: #F2E9E4;
+    height: 750px;
+    position: relative;
+}
+
+.heading-container>.heading-content {
+    position: absolute;
+    margin: 100px auto 0 50px;
+    opacity: 100%;
+    height: 73%;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+.heading-content hr {
+    background-color: #F2E9E4;
+    width: 90%;
+}
+
+.heading-content>.name-tag {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading-content>.name-tag>.h1 {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 7rem;
+    margin-left: -3px;
+}
+
+.heading-content>.name-tag>.home-welcome {
+    font-family: 'Lora', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: .08em;
+    margin-top: -20px;
+}
+
+.heading-content>.name-tag>.home-welcome>#portfolio-span {
+    color: #4472ca;
+    font-weight: 600;
+}
+
+.heading-content>.name-tag>#home-small-tag {
+    font-size: 1.001rem;
+    margin-top: -16px;
+}
+
+.heading-content>.name-tag>#home-small-tag>#bootstrap-span {
+    color: #7952B3;
+    font-weight: 600;
+}
+
+.site-features {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.site-features>#projects-title-h2 {
+    font-size: 2rem;
+}
+
+.site-features>.main-page-links>.nav {
+    flex-direction: column;
+}
+
+.site-features>.main-page-links>.nav>.main-link {
+    margin: 20px 0px 5px 0px;
+}
+
+.site-features>.main-page-links>.nav>.main-link a {
+    text-decoration: none;
+    color: #F2E9E4;
+    border: 1px solid #f2f2f2;
+    padding: 5px;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.site-features>.main-page-links>.nav>.main-link a:hover {
+    background-color: #262322;
+    transition: .4s;
+    letter-spacing: .1rem;
+}
+
+.explaination-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    box-shadow: inset 0px 0px 53px 40px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.explaination-container p {
+    width: 40%;
+    font-family: 'Lora', sans-serif;
+    font-size: 1.3em;
+    margin: auto;
+    padding: 40px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: #262322;
+}
+
+footer>.container {
+    height: 100%;
+}
+
+.container>.row {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.container>.row>.col-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container>.row>.col-1 a {
+    margin: auto 0px;
+    padding: 10px;
+    transition: .3s;
+}
+
+.container>.row>.col-1 i {
+    color: #F2E9E4;
+    font-size: 2rem;
+}
