@@ -8,7 +8,7 @@ body {
 }
 
 .heading-container {
-    background-image: url('images/light-laptop.jpg');
+    background-image: url('https://coledtaylor.github.io/portfolio/images/light-laptop.jpg');
     background-size: cover;
     background-position: center;
     opacity: 90%;
